@@ -1,0 +1,166 @@
+
+
+@media (max-width: 768px) {
+    .vfrc-widget--chat {
+        width: 100vw !important;
+        height: 100dvh !important;  /* Use dvh instead of vh */
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        transform: none !important;
+        position: fixed !important;
+    }
+}
+
+textarea, input {
+    font-size: 16px !important;
+}
+
+/* Tässä on koko chatti ikkuna */ 
+
+.vfrc-widget--chat {
+    max-width: 100%;
+    height: 60%;
+    box-sizing: border-box; /* Ensure padding and borders don't overflow */
+    bottom: 30px !important;
+    right: 30px !important;
+    position: absolute; /* Position the chat relative to the widget */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth toggle effect */
+    opacity: 0; /* Initially hidden */
+    pointer-events: none; /* Disable interactions when hidden */
+
+
+
+
+}
+
+
+/* Koko yläpalkki teksteineen  lisää important */
+
+
+
+.c-kIbiaN {
+    background-color: transparent !important;
+}
+
+
+
+
+
+/* Varjostus logolle. Box Shadow, None ja important jos haluat poistaaa */ 
+
+
+.c-kIbiaN-eyfkxi-size-large {
+box-shadow: 0 4px 16px 0 var(--shadows-shadow4), 0 0 0 1px var(--shadows-shadow2);
+}
+
+
+
+
+  /* Show the widget */
+
+.vfrc-launcher img {
+    content: url("https://pitkakoski.com/file/launcher.svg"); /* Replace the original image */
+    width: 100%; /* Ensure it scales properly */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .vfrc-launcher {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: block !important; /* Ensure the widget appears */
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+
+
+
+
+
+
+/* Top bar whole */
+
+.c-iCDrnV {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    height: var(--sizes-lg);
+    padding: 0 var(--space-4) 0 var(--space-5);
+    background-color: #ffffff; /* Set background color to white */
+    box-shadow: 0 1px 2px var(--shadows-shadow16);
+}
+
+/* Top bar text */
+
+.c-kfyIxT {
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Vertically centers the text */
+    justify-content: center; /* Optional: Centers the text horizontally */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Ensures text is truncated with "..." if it overflows */
+    white-space: nowrap; /* Prevents text from wrapping */
+    font-family: var(--fonts-default); /* Keeps the default font */
+    font-size: 17px; /* Adjust the font size */
+    font-weight: var(--fontWeights-2); /* Keeps the default font weight */
+    line-height: normal; /* Resets the line height for better centering */
+    color: rgba(0, 0, 0, 0.95); /* Change text color to almost black */
+    background-color: transparent; /* Ensure no unintended background */
+    padding: 0; /* Adjusts padding if necessary for centering */
+    height: 100%; /* Makes sure the container fills the available space */
+}
+
+
+/* Vasemman kulman ikoni */
+
+.vfrc-avatar {
+    display: null !important;
+}
+
+
+/* Koko yläpalkki teksteineen */
+
+
+/* Koko ikoni palkki ja sen leveys */
+
+.c-dxAZjf {
+    width: 20px; /* Adjust the size */
+}
+
+
+
+
+/* Eka ikoni */
+
+.c-dzcdPv.vfrc-header--button.c-dxAZjf:nth-of-type(1) {
+    display: none;
+}
+
+button.c-dzcdPv.vfrc-header--button.c-dxAZjf svg {
+    width: 20px; /* Adjust the size */
+    height: 20px; /* Adjust the size */
+    color: rgb(0, 0, 0); /* Change the icon color */
+}
+
+/* Toka ikoni add display none to hide 
+
+.c-dzcdPv.vfrc-header--button.c-dxAZjf:nth-of-type(2) {
+
+}
+*/ 
+
+
+button.c-dzcdPv.vfrc-header--button.c-dxAZjf svg {
+    width: 20px; /* Adjust the size */
+    height: 20px; /* Adjust the size */
+    color: rgb(0, 0, 0); /* Change the icon color */
+}
+
+
+
+
+
