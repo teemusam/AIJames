@@ -60,7 +60,6 @@ box-shadow: 0 4px 16px 0 var(--shadows-shadow4), 0 0 0 1px var(--shadows-shadow2
   /* Show the widget */
 
 .vfrc-launcher img {
-    content: url("https://pitkakoski.com/file/launcher.svg"); /* Replace the original image */
     width: 100%; /* Ensure it scales properly */
     height: auto; /* Maintain aspect ratio */
   }
